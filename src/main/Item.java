@@ -38,6 +38,6 @@ public class Item {
      * if its stock is more than 0.
      */
     public boolean isInStock() {
-        return this.stock >= 0;
+        return this.stock > 0;
     }
 }
